@@ -50,7 +50,7 @@ Baidu hhvm 下载地址：
 
 	bin/hhvm_control start
 
-fastcgi 模式启动：
+<b>fastcgi 模式启动：</b>
 
 需要通过nginx或者apache 转发到8091端口上，然后通过访问nginx端口访问hhvm的php，如nginx端口是8080,那么则访问http://127.0.0.1:8080/test.php 即可通过8080转发到8091访问我们的php页面；
 
@@ -58,7 +58,7 @@ fastcgi 模式启动：
 
 停止和重启运行脚本restart和stop即可；
 
-hhvm 简单运行
+<b>hhvm 简单运行</b>
 
 如果我们不想运行脚本，仅仅测试hhvm,那么我们也可以利用上面写好的脚本，运行：
 
