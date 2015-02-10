@@ -9,6 +9,7 @@
 
 Baidu hhvm 下载地址：
 
+	http://bcs.duapp.com/hhvm-package/hhvm-3.0.1-V0.1.tar.gz
 
 ### 1.解压hhvm.tar.gz
 
