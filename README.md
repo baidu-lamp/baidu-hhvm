@@ -12,8 +12,8 @@ Baidu hhvm 下载地址：
 
 ### 1.解压hhvm.tar.gz
 
-        tar zxvf hhvm.tar.gz
-  	cd hhvm
+	tar zxvf hhvm.tar.gz
+	cd hhvm
   
 ### 2.通过文本编辑器打开init.sh文件
 
@@ -48,7 +48,7 @@ Baidu hhvm 下载地址：
 
 然后我们运行脚本:
 
-  bin/hhvm_control start
+	bin/hhvm_control start
 
 fastcgi 模式启动：
 
@@ -57,11 +57,12 @@ fastcgi 模式启动：
 也可以用http模式运行，修改hhvm.conf中fastcgi为Server.Type=libevent即可，这样就可以直接访问端口；
 
 停止和重启运行脚本restart和stop即可；
+
 hhvm 简单运行
 
 如果我们不想运行脚本，仅仅测试hhvm,那么我们也可以利用上面写好的脚本，运行：
 
-  bin/hhvm -c conf/hhvm.conf -m server
+	bin/hhvm -c conf/hhvm.conf -m server
 
 ### 目录结构
 
