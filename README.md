@@ -12,12 +12,12 @@ Baidu hhvm 下载地址：
 
 ### 1.解压hhvm.tar.gz
 
-  tar zxvf hhvm.tar.gz
-  cd hhvm
+        tar zxvf hhvm.tar.gz
+  	cd hhvm
   
-# 2.通过文本编辑器打开init.sh文件
+### 2.通过文本编辑器打开init.sh文件
 
-  vi tools/exec/init.sh
+	vi tools/exec/init.sh
   
 修改如下的3个参数：
 
@@ -27,7 +27,7 @@ Baidu hhvm 下载地址：
 	#hhvm 管理端口
 	ADMIN_PORT=8092
 	
-# 3.然后运行sh tools/exec/init.sh
+### 3.然后运行sh tools/exec/init.sh
 
 主要是替换配置文件的路径、noau监控端口、还有设置ld-linux-x86-64.so.2的路径
 
@@ -63,7 +63,7 @@ hhvm 简单运行
 
   bin/hhvm -c conf/hhvm.conf -m server
 
-目录结构
+### 目录结构
 
 <table>
 <thead>
