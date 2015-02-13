@@ -117,3 +117,17 @@ Baidu hhvm 下载地址：
 </tr>
 </tbody>
 </table>
+
+### 版本更新和问题提交
+
+#### git 源
+
+更新版本和一些详细内容都在如下git源中进行更新：
+
+	https://github.com/baidu-lamp/baidu-hhvm/
+	
+#### issue提交
+
+遇到的问题可以提交到issue中，我们后期会进行解决：
+
+	https://github.com/baidu-lamp/baidu-hhvm/issues
